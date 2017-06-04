@@ -1,0 +1,104 @@
+button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.success {
+  color: $green;
+  text-align: center;
+  display: none;
+}
+
+form {
+  max-width: 600px;
+  width: 90%;
+  margin: 0 auto;
+
+  ul {
+    list-style: none;
+  }
+
+  li {
+    margin-bottom: 20px;
+  }
+}
+
+.input, .submit {
+  border-radius: 50px;
+  padding: 15px 20px;
+  width: 100%;
+}
+
+.input {
+  border: 1px solid black;
+
+  &:focus::-webkit-input-placeholder {
+    color: transparent;
+  }
+  &:focus::-moz-placeholder {
+    color: transparent;
+  }
+  &:focus:-ms-input-placeholder {
+    color: transparent;
+  }
+  &:focus:-moz-placeholder {
+    color: transparent;
+  }
+}
+
+.submit {
+  transition: .3s all;
+  border: 2px solid #57de9c;
+  background-color: $green;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+
+  &:hover, &:focus {
+    background-color: transparent;
+    color: $green;
+  }
+}
+
+.yellow-section,
+.green-section {
+  .input {
+    border-color: transparent;
+  }
+}
+
+.offer {
+  margin-bottom: 7rem;
+  justify-content: center;
+
+  li {
+    padding: 3rem 2.5rem;
+    text-align: center;
+    background-color: $yellow;
+    border-radius: 5%;
+    margin: 0 0.5% 20px 0.5%;
+  }
+
+  .title {
+    margin-bottom: 2rem;
+    font-weight: 400;
+  }
+
+  .price {
+    line-height: 1;
+    font-size: 4rem;
+    font-weight: 500;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .offer {
+    display: block;
+    li {
+      margin: 10px auto;
+      display: block;
+    }
+  }
+}

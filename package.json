@@ -1,0 +1,29 @@
+{
+  "name": "yogaday",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "jquery": "^3.2.1",
+    "slick-carousel": "^1.6.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.7.7",
+    "del": "^2.2.2",
+    "gulp-clean-css": "^3.0.4",
+    "gulp-jshint": "^2.0.4",
+    "gulp-notify": "^3.0.0",
+    "gulp-postcss": "^6.4.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.6.0",
+    "gulp-uglify": "^2.1.2",
+    "jshint": "^2.9.4",
+    "jshint-stylish": "^2.2.1"
+  }
+}

@@ -1,0 +1,34 @@
+@media all and (min-width: 768px) {
+  .container {
+    min-width: 740px;
+  }
+
+  .tablet.slick-slider {
+    opacity: 0;
+    z-index: -1;
+    height: 0;
+  }
+}
+
+@media all and (max-width: 767px) {
+  html {
+    font-size: 50%;
+  }
+  .tablet.slick-slider {
+    opacity: 1;
+    z-index: 1;
+  }
+
+  .desktop {
+    display: none;
+  }
+
+  .section-title {
+    font-size: 3.5rem;
+    margin-bottom: 2rem;
+  }
+
+  .section {
+    padding: 5rem 10px;
+  }
+}

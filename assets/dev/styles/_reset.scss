@@ -1,0 +1,277 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, menu, nav, section {
+  display: block;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*-----------------variables-----------------*/
+@import url('https://fonts.googleapis.com/css?family=Roboto&subset=cyrillic,cyrillic-ext,latin-ext');
+$main-font: 'Roboto', sans-serif;
+$green: #57de9c;
+$dark-green: #3b9c6d;
+$yellow: rgb(255, 237, 99);
+$black: #000;
+$white: #fff;
+$grey: #7a7a7a;
+$light-grey: #e0e0e0;
+
+/*-----------------html5 blocks--------------*/
+
+* {
+  box-sizing: border-box;
+  outline: none;
+}
+
+address {
+  font-style: normal;
+  font-weight: bold;
+
+  ul {
+    list-style: none;
+  }
+}
+
+html, body {
+  height: 100%;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family:  $main-font;
+  font-size: 2rem;
+  font-weight: 300;
+  color: $black;
+  line-height: 1.5;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  color: inherit;
+  display: inline-block;
+  text-decoration: none;
+  transition: .3s all;
+  word-break: break-all;
+}
+
+p {
+  margin-bottom: 2.5rem;
+}
+
+/*----------------basic styles-----------------*/
+.overlay {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 2;
+  top: 0;
+  left: 0;
+  display: none;
+}
+
+.section {
+  padding: 9rem 10px;
+  overflow: hidden;
+  position: relative;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.sm-container {
+  max-width: 750px;
+  margin: 0 auto;
+}
+
+.md-container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.relative {
+  position: relative;
+}
+
+.list-inline {
+  list-style: none;
+
+  li {
+    display: inline-block;
+  }
+}
+
+.list-initial {
+  list-style: disc outside;
+  margin: 0 0 20px 20px;
+
+  li {
+    list-style: disc outside;
+    margin: 5px 0;
+  }
+}
+
+.list {
+  dd {
+    display: list-item;
+    margin-left: 20px;
+    list-style: disc outside;
+  }
+
+  .sm-title {
+    margin-top: 3rem;
+  }
+}
+
+.align-c {
+  text-align: center;
+}
+
+.transform-c-c {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50.1%);
+}
+
+img.transform-c-c {
+  min-width: 100%;
+  max-width: initial;
+  min-height: 100%;
+}
+
+.link {
+  color: $green;
+
+  &:hover, &:focus {
+    text-decoration: underline;
+  }
+}
+
+.underline {
+  text-decoration: underline;
+
+  &:hover, &:focus {
+    text-decoration: none;
+  }
+}
+
+.section-title {
+  color: $green;
+  font-size: 6.5rem;
+  font-weight: normal;
+  text-align: center;
+  margin-bottom: 7rem;
+}
+
+.secondary-title {
+  font-size: 4rem;
+  border-top: 5px solid $green;
+  color: $green;
+  padding-top: 20px;
+  margin-bottom: 25px;
+}
+
+.md-title {
+  font-size: 3rem;
+  font-weight: 300;
+}
+
+.sm-title {
+  font-size: 2.4rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.simple-title {
+  font-size: 4rem;
+  font-weight: 400;
+  margin-bottom: 3rem;
+  color: $green;
+}
+
+.green-section {
+  color: $white;
+  background-color: $green;
+
+  .section-title {
+    color: $white;
+  }
+
+  a {
+    text-decoration: underline;
+
+    &:hover, &:focus {
+      text-decoration: none;
+    }
+  }
+}
+
+.yellow-section{
+  background-color: $yellow;
+}
+
+.flex, .slick-track {
+  display: flex;
+  justify-content: space-between;
+  flex-flow: wrap row;
+}
+
+.slick-track {
+  a {
+    display: block;
+  }
+
+  img {
+    width: 100%;
+  }
+}
+
+@media all and (min-width: 992px) {
+  .secondary-title {
+    max-width: 250px;
+  }
+}
+
+@media all and (max-width: 1169px) {
+  html {
+    font-size: 60%;
+  }
+}

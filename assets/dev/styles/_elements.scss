@@ -1,0 +1,214 @@
+.socials {
+  width: 4.8rem;
+  height: 4.8rem;
+  fill: $green;
+  display: inherit;
+
+  &:hover, &:focus {
+    fill: $dark-green;
+  }
+}
+
+.go-up {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  fill: #9ccffd;
+  width: 5rem;
+  height: 5rem;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.ticket, .call {
+  border: 2px solid $green;
+  padding: 1rem 3rem;
+  border-radius: 50px;
+  font-weight: bold;
+}
+
+.ticket {
+  background-color: $green;
+  color: $white;
+
+  &:hover {
+    background-color: transparent;
+    color: $green;
+  }
+}
+
+.call {
+  background-color: transparent;
+  color: $white;
+
+  &:hover {
+    background-color: $green;
+  }
+}
+
+//partners
+.partners {
+  .flex {
+    justify-content: center;
+
+    li {
+      margin: 10px;
+    }
+  }
+}
+
+//event
+.event {
+  p {
+    margin: 0;
+    position: relative;
+    padding: 4.5rem 0;
+
+    &:after, &:before {
+      content: '';
+      position: absolute;
+      height: 1px;
+      width: 140px;
+      background-color: $white;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+
+    &:after {
+      bottom: 0;
+    }
+
+    &:before {
+      top: 0;
+    }
+  }
+}
+
+//target
+.target {
+   .flex {
+     align-items: flex-start;
+   }
+}
+
+//about place
+.about-place {
+  .col-sm-6-cl {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .section {
+    padding: 9rem;
+  }
+
+  ul {
+    list-style: none;
+  }
+}
+
+//slider
+.carousel {
+  position: relative;
+}
+
+.slick-dots li button:before {
+  background-color: white;
+}
+
+.slick-dots li.slick-active button:before {
+  background-color: white;
+}
+
+.slick-arrow {
+  width: 55px;
+  height: 55px;
+  z-index: 1;
+
+  &:before {
+    display: none;
+  }
+
+  svg {
+    width: 55px;
+    height: 55px;
+    fill: white;
+    transition: .3s all;
+
+    &:hover, &:focus {
+      fill: rgba(255, 255, 255, 0.5)
+    }
+  }
+}
+
+.slick-next {
+  right: 0;
+}
+
+.slick-prev {
+  left: 0;
+
+  svg {
+    transform: rotateY(-180deg);
+  }
+}
+
+//map
+@media all and (min-width: 768px) {
+  .map {
+    height: 100vh;
+  }
+}
+
+// market
+.market {
+  img {
+    margin-bottom: 5rem;
+  }
+}
+
+//popup
+.popup {
+  width: 90%;
+  max-width: 460px;
+  display: none;
+
+  .section-title {
+    font-size: 3.6rem;
+    margin-bottom: 3rem;
+  }
+
+  .input {
+    border-color: $grey;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .map-section {
+    display: block;
+
+    .transform-c-c {
+      position: static;
+      transform: translateX(0);
+    }
+
+    .map {
+      height: 210px;
+    }
+  }
+
+  .target {
+    & > .flex {
+      display: block;
+    }
+  }
+
+  .about-place {
+    img {
+      position: static;
+      transform: translate(0);
+      max-width: 100%;
+    }
+  }
+}
