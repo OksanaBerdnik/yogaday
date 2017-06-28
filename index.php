@@ -3,21 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="robots" content="nofollow, noindex">
-    <meta name="description" content="Йогамарафон в Одессе от фестиваля йоги та музыки АВАТАР">
+    <meta name="description" content=" Международный День Йоги. Kyiv Sunrise Yogaz">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="assets/vendor/fancybox/jquery.fancybox.min.css">
     <link rel="stylesheet" href="assets/styles/main.css">
-    <title>Йогамарафон в Одессе</title>
+    <title>Yoga Day</title>
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:site" content="Йогамарафон в Одессе">
+    <meta name="twitter:site" content="Yoga Day">
     <meta name="twitter:url" content="http://marathons.avatarfest.com.ua/odesa"/>
-    <meta name="twitter:title" content="Йогамарафон в Одессе">
-    <meta name="twitter:description" content="Йогамарафон в Одессе от фестиваля йоги та музыки АВАТАР">
+    <meta name="twitter:title" content="Yoga Day">
+    <meta name="twitter:description" content=" Международный День Йоги. Kyiv Sunrise Yogaz">
     <meta name="twitter:image" content="http://marathons.avatarfest.com.ua/assets/images/header-bg.jpg">
 
-    <meta property="og:title" content="Йогамарафон в Одессе">
-    <meta property="og:description" content="Йогамарафон в Одессе от фестиваля йоги та музыки АВАТАР">
+    <meta property="og:title" content="Yoga Day">
+    <meta property="og:description" content=" Международный День Йоги. Kyiv Sunrise Yogaz">
     <meta property="og:type" content="article"/>
     <meta property="og:image" content="http://marathons.avatarfest.com.ua/assets/images/header-bg.jpg"/>
     <meta property="og:url" content="http://marathons.avatarfest.com.ua/odesa"/>
@@ -61,7 +61,7 @@
     <h2 class="section-title">Заказать звонок</h2>
     <form method="GET" class="order-email">
         <p class="success">Спасибо! Мы свяжемся с Вами в течении дня.</p>
-        <input type="hidden" value="Заказ звонка (Одесса)" name="subject">
+        <input type="hidden" value="Заказ звонка (Yoga Day)" name="subject">
         <ul>
             <li>
                 <input class="input" type="text" name="name" placeholder="Имя" required>
@@ -129,7 +129,7 @@
     <div class="transform-c-c align-c description">
         <h1>Международный День Йоги</h1>
         <small>в Киеве</small>
-        <address>18 июня - флешмоб на Хрещатике, 8:00-10:0<br>21 июня - фестиваль в Мариинском парке, 16:00-20:00</address>
+        <address>18 июня - флешмоб на Хрещатике, 8:00-10:00<br>21 июня - фестиваль в Мариинском парке, 16:00-20:00</address>
         <ul class="btn-group list-inline">
             <li>
                 <a href="https://sunriseyogaz.typeform.com/to/kt3tY3" class="ticket">Зарегистрироваться</a>
@@ -233,7 +233,8 @@
     <div class="section green-section col-sm-6-cl">
         <div class="transform-c-c align-c">
             <h2 class="section-title">Место проведения</h2>
-            <address>26 февраля, с 09:00 до 21:00<br>«ЙОГАДОМ», г. Одесса,<br>ул. Маршала Говорова 18а, 2-й этаж</address>
+            <address>Киев, Хрещатик, мэрия 8:00-10:00 <br>Йога мела 21 июня 6:00-20:00
+            </address>
         </div>
     </div>
     <div class="col-sm-6-cl map" id="map"></div>
@@ -430,7 +431,7 @@
         <p class="align-c">Заполните, пожалуйста, форму ниже для регистрации</p>
         <form method="GET" class="order-email">
             <p class="success">Спасибо! Мы свяжемся с Вами в течении дня.</p>
-            <input type="hidden" value="Заказ билетов (Одесса)" name="subject">
+            <input type="hidden" value="Заказ билетов (Yoga Day)" name="subject">
             <ul>
                 <li>
                     <input class="input" type="text" name="name" placeholder="Введите ваше имя *" required>
@@ -463,12 +464,12 @@
                         <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#facebook"></use>
                     </svg>
                 </a>
-                <a href="https://vk.com/avatarfest" target="_blank">
+                <a href="https://vk.com/sunriseyogaz" target="_blank">
                     <svg class="socials">
                         <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#vk"></use>
                     </svg>
                 </a>
-                <a href="https://www.instagram.com/avatarfest/" target="_blank">
+                <a href="https://www.instagram.com/kyivsunriseyogaz/" target="_blank">
                     <svg class="socials">
                         <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#instagram"></use>
                     </svg>
@@ -544,7 +545,7 @@
             </p>
             <p>Также вы можете стать Спонсором марафона (с широким промо в социальных сетях и во время марафона).</p>
             <p>По поводу спонсорства пишите нам нам на email:
-                <a href="mailto:kyivsunriseyogaz@gmail.com">kyivsunriseyogaz@gmail.com</a>
+                <a class="link" href="mailto:kyivsunriseyogaz@gmail.com">kyivsunriseyogaz@gmail.com</a>
             </p>
         </div>
     </div>

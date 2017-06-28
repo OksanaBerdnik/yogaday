@@ -99,11 +99,11 @@ function initMap() {
 
     var location = [
         ['Киев, Хрещатик, мэрия', 50.446306, 30.521063, 1],
-        ['3', -34.028249, 151.157507, 2]
+        ['Йога мела 21 июня', 50.449948, 30.537126, 2]
     ];
 
     var map = new google.maps.Map(document.getElementById('map'), {
-        zoom: 10,
+        zoom: 14,
         center: new google.maps.LatLng(50.450181, 30.523373),
         mapTypeId: google.maps.MapTypeId.ROADMAP
     });
@@ -122,7 +122,7 @@ function initMap() {
             return function () {
                 infowindow.setContent(location[i][0]);
                 infowindow.open(map, marker);
-            }
+            };
         })(marker, i));
     }
 }
